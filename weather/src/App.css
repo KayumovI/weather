@@ -1,4 +1,36 @@
 .App {
   size: 30px;
   text-align: left;
+  height: 100%;
+  background-image: url('/public/BackGround.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.Das{
+/* Солнечно */
+
+
+position: absolute;
+width: 111px;
+height: 31px;
+left: 676px;
+top: 252px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 130%;
+/* or 31px */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
 }

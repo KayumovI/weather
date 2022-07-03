@@ -16,6 +16,7 @@ function App() {
       if (response.ok) {
         const json = await response.json()
         setcloudDescription( json.weather[0].description)
+        
       }
       else 
       {
@@ -35,4 +36,3 @@ function App() {
 }
 
 export default App;
-
