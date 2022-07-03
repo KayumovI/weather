@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState, useSyncExternalStore } from 'react';
 import './App.css';
 
 
@@ -8,28 +8,31 @@ const lon = '49.666127'
 const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_key}&units=metric&lang=ru`
 
 function App() {
-  
+  const [cloudDescription, setcloudDescription] = useState('')
+ 
   useEffect (() => {
-  const fetchData = async () => {
-    const response = await fetch(url) 
-    if (response.ok) {
-      const json = await response.json()
-      
-    }else {
+    const fetchData = async () => {
+      const response = await fetch(url) 
+      if (response.ok) {
+        const json = await response.json()
+        setcloudDescription( json.weather[0].description)
+      }
+      else 
+      {
       console.error('Что-то не так')
-    }
+      }
   }
+  
   fetchData();
-
   }, [])
 
 
   return (
     <div className="App">
-      
-      Kayumov
+      {cloudDescription}
     </div>
-  );
+   );
 }
 
 export default App;
+
