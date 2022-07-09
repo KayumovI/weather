@@ -1,6 +1,6 @@
 import { useEffect, useState, useSyncExternalStore } from 'react';
 import './App.css';
-import { ReactComponent as SunSvg } from './images/sun.svg'
+//import { ReactComponent as SunSvg } from './images/sun.svg'
 
 const API_key = '5eaecfcd63a942fdfe9cf01e7d3c052b'
 const lat = '54.139556'
@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       {cloudDescription}
-      <SunSvg />
+      
     </div>
    );
 }
