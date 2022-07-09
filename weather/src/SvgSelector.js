@@ -1,13 +1,13 @@
 import PropTypes from "prop-types";
-import Sun from "./images/icons/Sun.svg";
-import Cloud from "./images/icons/Cloud.svg";
-import ScattedCloud from "./images/icons/CloudScattered.svg";
-import BrokenCloud from "./images/icons/BrockenClouds.svg";
-import ShowerRain from "./images/icons/ShowerRain.svg";
-import Rain from "./images/icons/Rain.svg";
-import Thunderstorm from "./images/icons/Thunderstorm.svg";
-import Snow from "./images/icons/Snow.svg";
-import Mist from "./images/icons/Mist.svg";
+import Sun from "./images/Sun.svg";
+import Cloud from "./images/Cloud.svg";
+import ScattedCloud from "./images/CloudScattered.svg";
+import BrokenCloud from "./images/BrockenClouds.svg";
+import ShowerRain from "./images/ShowerRain.svg";
+import Rain from "./images/Rain.svg";
+import Thunderstorm from "./images/Thunderstorm.svg";
+import Snow from "./images/Snow.svg";
+import Mist from "./images/Mist.svg";
 
 function SvgSelector(props) {
     const { cssClass, code } = props;

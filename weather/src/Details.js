@@ -1,8 +1,8 @@
 import './App.css';
 import React from 'react';
-import {ReactComponent as Vector} from './images/icons/Vector.svg';
-import {ReactComponent as SunUp} from './images/icons/Sun up.svg';
-import {ReactComponent as SunDown} from './images/icons/Sun down.svg';
+import {ReactComponent as Vector} from './images/Vector.svg';
+import {ReactComponent as SunUp} from './images/Sun up.svg';
+import {ReactComponent as SunDown} from './images/Sun down.svg';
 function Details({detailsDate}){
     
     
