@@ -17,7 +17,7 @@
   position: absolute;
   width: 400px;
   height: 47px;
-  left: 40%;
+  left: 41%;
   top: 5%;
   
   font-family: 'Roboto';
@@ -40,11 +40,11 @@
   justify-content: center;
   align-items: center;
   padding: 0vh;
-  gap: 1vh;
+  gap: 2vh;
   
   position: absolute;
   width: 20vw;
-  height: 14vh;
+  height: 23vh;
   left: 39%;
   top: 9%;
 }
@@ -80,7 +80,7 @@
   width: 12%;
   height: auto;
   left: 44%;
-  top: 22%;
+  top: 25%;
   text-align: center;
   font-weight: 400;
   font-size: 4vh;
