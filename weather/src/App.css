@@ -15,20 +15,24 @@
 }
 .City{
   position: absolute;
-  width: 131px;
+  width: 400px;
   height: 47px;
   left: 40%;
-  top: 2%;
-
+  top: 5%;
+  
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 6vh;
+  font-size: 36px;
   line-height: 130%;
-
+  /* identical to box height, or 47px */
+  
+  display: flex;
   align-items: center;
-
+  
   color: #FFFFFF;
+
+  
 }
 .MainMidle{
   display: flex;
